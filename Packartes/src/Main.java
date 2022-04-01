@@ -8,6 +8,12 @@ import java.util.ArrayList;
  */
 public class Main extends PaquetAbs{
 
-    
+    /**
+     * Cette méthode retire une carte de la main et la retourne.
+     * @param carteAjouer Carte
+     */
+    private void jouer(Carte carteAjouer) {
+        paquetCartes.remove(carteAjouer);
+    }
 
 }
